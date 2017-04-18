@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Sample</string>
+    <string name="subject_prompt">Choose a branch</string>
     <string-array name="branches">
         <item>ME</item>
     </string-array>
