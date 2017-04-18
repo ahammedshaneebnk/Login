@@ -4,31 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.sample.LoginActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.android.sample.LoginActivity">
 
     <EditText
         android:id="@+id/etLogUserNameId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="User Name"
-        />
+        android:hint="User Name" />
+
     <EditText
         android:id="@+id/etLogPasswordId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
+
     <Button
         android:id="@+id/bLogLoginId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"/>
+        android:text="Login" />
+
     <TextView
         android:id="@+id/tLogRegisterLinkId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register Here"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:text="Register Here" />
 
 </LinearLayout>
